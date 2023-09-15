@@ -8,11 +8,11 @@ terraform {
 }
 
 provider "aws" {
-    
+    region = "us-east-1" 
     default_tags {
         tags = {
             Owner   = "Wagner Silva"
-            Env     = "Producao"
+            Env     = "Prod"
             Class   = "CLC10"
         }
     }
